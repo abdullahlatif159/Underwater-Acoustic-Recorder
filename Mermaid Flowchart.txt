@@ -1,0 +1,24 @@
+flowchart TD
+    start(Start) --> init[Initialize System]
+    init --> rtc[Set RTC to Compile Time]
+    rtc --> sdSetup[SD Setup]
+    sdSetup --> audiodataFile[Setup Audio + Data File]
+    audiodataFile --> app_state{{app_state}}
+    
+    app_state -->|PRE_ANALYSIS_RECORDING| pre_analysis[Pre-Analysis Recording]
+    app_state -->|MAIN_RECORDING| main_recording[Main Recording]
+    
+    pre_analysis --> pre_analysis_check{Pre-Analysis recording complete?}
+    pre_analysis_check -->|Yes| fft_conversion[Perform FFT]
+    fft_conversion --> freq_detect{Significant Frequency Detected?}
+    freq_detect -->|Yes| change_to_main[Change State to MAIN_RECORDING]
+    freq_detect -->|No| reinit_pre[Re-initialize Pre-Analysis Recording]
+    reinit_pre --> pre_analysis
+    change_to_main --> main_recording
+
+    main_recording --> dma_transfer[DMA Transfer Complete]
+    dma_transfer --> write_data[Write Data to SD]
+    write_data --> reset_state[Reset State to PRE_ANALYSIS_RECORDING]
+    reset_state --> app_state
+
+    pre_analysis_check -->|No| pre_analysis
