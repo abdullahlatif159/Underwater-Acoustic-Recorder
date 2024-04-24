@@ -1,0 +1,7 @@
+Change Net Name : Old Net Name=LDO Out New Net Name=3.3V
+Added Member To Class: ClassName=Acoustic recorder Member=Component C5 10uF
+Added Member To Class: ClassName=Acoustic recorder Member=Component C23 100nF
+Added Member To Class: ClassName=Acoustic recorder Member=Component C25 2.2uF
+Added Member To Class: ClassName=Acoustic recorder Member=Component C26 1uF
+Added Member To Class: ClassName=Acoustic recorder Member=Component C27 100nF
+Added Room: Name=Acoustic recorder

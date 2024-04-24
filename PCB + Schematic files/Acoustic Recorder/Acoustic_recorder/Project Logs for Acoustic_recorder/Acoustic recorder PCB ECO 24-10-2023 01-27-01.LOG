@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=C27-1
+Removed Pin From Net: NetName=3.3V Pin=C27-2
+Removed Member From Class: ClassName=Acoustic recorder Member=C27
+Added Member To Class: ClassName=Acoustic recorder Member=Component J1 USB4110-GF-A

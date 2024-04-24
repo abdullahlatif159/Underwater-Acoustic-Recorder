@@ -1,0 +1,2 @@
+Change Net Name : Old Net Name=V_SENSE New Net Name=VBUS
+Added Member To Class: ClassName=Acoustic recorder Member=Component R11 Resistor 10k +/-1% 0805 125 mW

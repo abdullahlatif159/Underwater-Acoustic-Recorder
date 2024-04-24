@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=C4 NewDesignator=C5
+Change Component Designator: OldDesignator=C5 NewDesignator=C4
+Change Component Designator: OldDesignator=C23 NewDesignator=C24
+Change Component Designator: OldDesignator=C24 NewDesignator=C25
+Change Component Designator: OldDesignator=C25 NewDesignator=C26
+Change Component Designator: OldDesignator=C26 NewDesignator=C27
+Change Component Designator: OldDesignator=C27 NewDesignator=C28
+Added Component: Designator=C23(CAPC2013X145X50LL20T25)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kemet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0805C104K9RACTU"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=LDO Out Pin=C23-2
+Change Net Name : Old Net Name=NetC23_2 New Net Name=NetC24_2
+Change Net Name : Old Net Name=NetC24_2 New Net Name=NetC25_2
+Added Member To Class: ClassName=Acoustic recorder Member=Component C28 1uF
+Added Room: Name=Acoustic recorder

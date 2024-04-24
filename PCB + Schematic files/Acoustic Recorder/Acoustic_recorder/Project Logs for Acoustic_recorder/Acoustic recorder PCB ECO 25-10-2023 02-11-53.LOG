@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=!RST Pin=S1-A1
+Removed Pin From Net: NetName=GND Pin=S1-B1
+Change Component Footprint: Designator=S1 Old Footprint=EVPAS5D1A New Footprint=PTS645(SMT)
+Change Component Comment : Designator=S1 Old Comment=EVP-AS5D1A New Comment=PTS645SM43SMTR92LFS
+Change component parameters: Designator = "S1" ("S1"); Footprint = "EVPAS5D1A"; UniqueID = "\QQZSHBUP" ("\QQZSHBUP")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "PTS645SM43SMTR92LFS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/pts645sm43smtr92lfs/ck"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.ckswitches.com/media/1471/pts645.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "C & K COMPONENTS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PTS645SM43SMTR92LFS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "611-PTS645SM43SMTR92"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/CK/PTS645SM43SMTR92LFS?qs=FESYatJ8odKPktxv6ncfWg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=!RST Pin=S1-1
+Added Pin To Net: NetName=!RST Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S1-3
+Added Pin To Net: NetName=GND Pin=S1-4

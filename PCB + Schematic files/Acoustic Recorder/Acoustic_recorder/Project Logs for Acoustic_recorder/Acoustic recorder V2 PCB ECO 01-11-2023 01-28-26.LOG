@@ -1,0 +1,13 @@
+Change Component Description : Designator=C4 Old Description=Bulk Decoupling Cap New Description=
+Added Pin To Net: NetName=SCL_1 Pin=J4-4
+Added Pin To Net: NetName=SCL_1 Pin=U1-139
+Added Net: Name=SCL_1
+Added Pin To Net: NetName=SCL_2 Pin=J8-4
+Added Pin To Net: NetName=SCL_2 Pin=U1-11
+Added Net: Name=SCL_2
+Added Pin To Net: NetName=SDA_1 Pin=J4-3
+Added Pin To Net: NetName=SDA_1 Pin=U1-140
+Added Net: Name=SDA_1
+Added Pin To Net: NetName=SDA_2 Pin=J8-3
+Added Pin To Net: NetName=SDA_2 Pin=U1-10
+Added Net: Name=SDA_2

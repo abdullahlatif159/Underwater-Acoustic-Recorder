@@ -1,0 +1,17 @@
+Added Component: Designator=IC?(QFP50P2600X2600X160-176N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/stm32h725ag.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STM32H725IET6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U?(FP-LQFP144-1A-IPC_A)
+Added Component: Designator=U?(FP-LQFP144-1A-IPC_A)
+Added Component: Designator=U?(FP-LQFP144-1A-IPC_A)
+Added Member To Class: ClassName=Acoustic recorder Member=Component IC? STM32H725IET6
+Added Member To Class: ClassName=Acoustic recorder Member=Component U? STM32H723ZGT6
+Added Member To Class: ClassName=Acoustic recorder Member=Component U? STM32H723ZGT6
+Added Member To Class: ClassName=Acoustic recorder Member=Component U? STM32H723ZGT6
+Added Room: Name=Acoustic recorder

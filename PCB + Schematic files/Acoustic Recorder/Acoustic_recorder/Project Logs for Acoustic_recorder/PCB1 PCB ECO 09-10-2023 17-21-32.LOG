@@ -1,0 +1,3 @@
+Removed Member From Class: ClassName=Acoustic recorder Member=U?
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Added Member To Class: ClassName=Acoustic recorder Member=Component U1 STM32H723ZGT6

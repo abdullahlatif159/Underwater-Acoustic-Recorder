@@ -1,0 +1,10 @@
+Added Component: Designator=MK(MIC_SPU0410LR5H-QB-7)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Knowles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SPU0410LR5H-QB-7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "2225 Knowles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SPU0410LR5H-QB-7/Knowles/view-part/587749/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Acoustic recorder Member=Component MK SPU0410LR5H-QB-7
+Added Member To Class: ClassName=Acoustic recorder Member=Component U2 SPU0410LR5H-QB

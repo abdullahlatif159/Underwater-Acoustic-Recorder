@@ -1,0 +1,34 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [Acoustic_recorder.PrjPcb]
+   Generated File[Acoustic recorder V2_Copper_Signal_Top.gbr]
+   Generated File[Acoustic recorder V2_Copper_Signal_Bot.gbr]
+   Generated File[Acoustic recorder V2_Pads_Bot.gbr]
+   Generated File[Acoustic recorder V2_Pads_Top.gbr]
+   Generated File[Acoustic recorder V2_Legend_Bot.gbr]
+   Generated File[Acoustic recorder V2_Soldermask_Bot.gbr]
+   Generated File[Acoustic recorder V2_Paste_Bot.gbr]
+   Generated File[Acoustic recorder V2_Legend_Top.gbr]
+   Generated File[Acoustic recorder V2_Paste_Top.gbr]
+   Generated File[Acoustic recorder V2_Soldermask_Top.gbr]
+   Generated File[Acoustic recorder V2_Mechanical_13.gbr]
+   Generated File[Acoustic recorder V2_Mechanical_2.gbr]
+   Generated File[Acoustic recorder V2_Mechanical_5.gbr]
+   Generated File[Acoustic recorder V2_Mechanical_16.gbr]
+   Generated File[Acoustic recorder V2_Mechanical_1.gbr]
+   Generated File[Acoustic recorder V2_Mechanical_3.gbr]
+   Generated File[Acoustic recorder V2_Mechanical_15.gbr]
+   Generated File[Acoustic recorder V2_Profile.gbr]
+   Generated File[Acoustic recorder V2_NPTH_Drill.gbr]
+   Generated File[Acoustic recorder V2_PTH_Drill.gbr]
+   Generated File[Acoustic recorder V2_Drawing_1.gbr]
+   Generated File[Acoustic recorder V2_Drillmap_1.gbr]
+   Generated File[Acoustic recorder V2.RUL]
+   Generated File[Acoustic recorder V2.EXTREP]
+   Generated File[Acoustic recorder V2.REP]
+
+
+Files Generated   : 25
+Documents Printed : 0
+
+Finished Output Generation At 14:42:08 On 17/04/2024
