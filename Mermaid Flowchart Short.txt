@@ -1,0 +1,21 @@
+flowchart TD
+    start(Start) --> init[Initialize System]
+    init --> rtc[Set RTC to Compile Time]
+    rtc --> sdSetup[SD Card Setup]
+    sdSetup --> setupFiles[Setup Audio and Data Files]
+    setupFiles --> app_state{{Application State}}
+    
+    app_state -->|Pre-Analysis Recording| pre_analysis[Pre-Analysis Recording]
+    pre_analysis --> checkPre{Pre-Analysis Recording Complete?}
+    checkPre -->|Yes| fft[Perform FFT]
+    fft --> freqCheck{Significant Frequency Detected?}
+    freqCheck -->|Yes| main_recording[Main Recording]
+    freqCheck -->|No| pre_analysis
+
+    main_recording --> dmaCheck[DMA Transfer Complete?]
+    dmaCheck --> writeSD[Write Data to SD]
+    writeSD --> durCheck{Desired Duration Elapsed?}
+    durCheck -->|No| main_recording
+    durCheck -->|Yes| app_state
+
+    checkPre -->|No| pre_analysis
